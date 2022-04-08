@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="17781a21-3794-4f39-850c-8fea493bcb9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/linkedin/kata/RomanTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/linkedin/kata/RomanTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/linkedin/kata/RomanTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/linkedin/kata/RomanTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,29 +25,33 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27J4ck30NHIZuZ30oEajRt8FXDg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
-  <component name="RunManager" selected="JUnit.RomanTests">
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.linkedin.kata.Roman" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.linkedin.kata" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RomanTests.RomanNumeralAddition">
     <configuration name="RomanTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanNumerals" />
       <extension name="coverage">
@@ -56,6 +63,38 @@
       <option name="PACKAGE_NAME" value="com.linkedin.kata" />
       <option name="MAIN_CLASS_NAME" value="com.linkedin.kata.RomanTests" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanTests.RomanNumeralAddition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RomanNumerals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linkedin.kata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.linkedin.kata" />
+      <option name="MAIN_CLASS_NAME" value="com.linkedin.kata.RomanTests" />
+      <option name="METHOD_NAME" value="RomanNumeralAddition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanTests.convertsSingleDigitRoman" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RomanNumerals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linkedin.kata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.linkedin.kata" />
+      <option name="MAIN_CLASS_NAME" value="com.linkedin.kata.RomanTests" />
+      <option name="METHOD_NAME" value="convertsSingleDigitRoman" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -78,7 +117,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RomanTests.RomanNumeralAddition" />
         <item itemvalue="JUnit.RomanTests" />
+        <item itemvalue="JUnit.RomanTests.convertsSingleDigitRoman" />
         <item itemvalue="JUnit.RomanTests.junitWorks" />
       </list>
     </recent_temporary>
@@ -95,6 +136,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -107,23 +149,5 @@
       <updated>1649024935579</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="560" y="175" key="#Project_Structure" timestamp="1649025050588">
-      <screen x="0" y="25" width="1920" height="977" />
-    </state>
-    <state x="560" y="175" key="#Project_Structure/-1440.205.1440.875/0.25.1920.977@0.25.1920.977" timestamp="1649025050588" />
-    <state x="424" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1649445346487">
-      <screen x="0" y="25" width="1920" height="977" />
-    </state>
-    <state x="424" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.205.1440.875/0.25.1920.977@0.25.1920.977" timestamp="1649445346487" />
-    <state x="469" y="149" key="SettingsEditor" timestamp="1649445790528">
-      <screen x="0" y="25" width="1920" height="977" />
-    </state>
-    <state x="469" y="149" key="SettingsEditor/-1440.205.1440.875/0.25.1920.977@0.25.1920.977" timestamp="1649445790528" />
-    <state x="-1043" y="471" key="com.intellij.ide.util.TipDialog" timestamp="1649445397659">
-      <screen x="-1440" y="205" width="1440" height="875" />
-    </state>
-    <state x="-1043" y="471" key="com.intellij.ide.util.TipDialog/-1440.205.1440.875/0.25.1920.977@0.25.1920.977" timestamp="1649445397659" />
   </component>
 </project>
